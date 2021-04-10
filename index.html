@@ -6,16 +6,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web S1</title>
 
+
+    <!-- Bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-    <button class="btn btn-danger">Test Button</button>
+    <Header>
+        <div id="logo" class="container">
+            <div class="row my-2">
+                <div class="col-6">
+                    <img src="./resources/picture/logo.jpg" alt="Logo">
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <input type="text" name="text" id="text">
+                    <input type="submit" value="Search">
+                </div>
+            </div>
+        </div>
 
+    </Header>
+
+    <div class="bg-primary" id="navbarId">
+        <div class="container" >
+            <div id="navbar" class="row" >
+                <ul class="nav d-flex justify-content-between w-100 py-2">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Client and Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact Us</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="carousel">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./resources/picture/c1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="carousel-label">
+                        <h5>
+                            Application Development</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./resources/picture/c2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="carousel-label"> 
+                        <h5>Delivering the best possible experience for our customers with mobile apps.</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./resources/picture/c3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="carousel-label">
+                        <h5>Creative and professional web applications to empower your business.</h5>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </section>
+
+        <section id="para">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-md-8">
+                        <h3 class="text-primary my-5">Application Development, Web & Mobile Application Development</h3>
+                        <p class="font-weight-bold">Application Development and Maintenance</p>
+                        <p class="text-justify">Our application development services are focused towards helping our customers in  delivering better quality services but in a very cost effective way. We are able to achieve these competing demands through process improvement, engaging domain specialists and the right mix of on-shore and offshore development. Because of our broad range of experience in different platforms and domains, we are perfectly positioned to minimize your total IT budget whilst offering world-class expertise.</p>
+                        <p class="font-weight-bold">Our Services</p>
+                        <ul><li>Requirements Analysis&nbsp;</li>
+                            <li>Solution Architecture and Design (SOA, SaaS)</li>
+                            <li>Application Re-Engineering</li>
+                            <li>Content Management</li>
+                            <li>Customized &nbsp;Application Development&nbsp;</li>
+                            <li>Web Application Development&nbsp;</li>
+                            <li>Mobile Application Development&nbsp;</li>
+                            <li>Maintenance and support for Existing Applications&nbsp;</li>
+                        </ul>
+                        <p class="text-justify"> Our teams have hands on expertise with successful projects track and are specialized in Microsoft .NET platform, Java Technologies, Multimedia Development (DirectShow framework, FFMPEG) Mobile Development (J2ME, Android, iPhone) and other open source web and mobile platforms&nbsp;</p>
+                        <p><strong>Dedicated Offshore Development Teams</strong></p>
+                        <p class="text-justify"><strong>&nbsp;</strong>Macrosoft has proved with track record become more dependable technology partners for businesses than their own IT departments. We have successfully established ourselves as the destination of choice for various companies in USA and Germany as their offshore IT departments. Our proper management hierarchy and marketing teams remain fully in touch with our offshore development teams and our partners to ensure timely and quality delivery. These teams are result oriented and highly responsive towards our partners’ needs. Excellent communication skills and around the clock availability of our teams makes offshore development an easy move for our customers.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <iframe width="338" height="237" src="https://www.youtube.com/embed/H6_taENJQ1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="contact-right-box">
+                            <h5>Customer support</h5>
+                            
+                            <div class="ca-phone"> <span class="phone-num">+92- 42-35867781<br>
+                            +92- 42-35867782</span> 
+                        </div>
+                            
+                            
+                            <div class="ca-mail"><span class="hm-email"><a href="mailto:msaghir@macrosoftinc.com">msaghir@macrosoftinc.com</a></span> <!--phone ends--><!--quick contact box--></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+       <div class="container">
+           <div class="row">
+               <ul>
+                   <li>Home</li>
+                   <li>Home</li>
+                   <li>Home</li>
+                   <li>Home</li>
+                   <li>Home</li>
+                   <li>Home</li>
+               </ul>
+           </div>
+           <div class="row text-align-center">
+               <span class="">
+
+                ©2019-2020 www.macrosoftpakistan.com
+                </span>
+           </div>
+       </div>
+    </footer>
+
+
+    
     <!-- Bootstrap Scripts -->
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>      
+    <script src="./js/bootstrap.min.js"></script>     
+
 </body>
 </html>

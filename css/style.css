@@ -1,0 +1,45 @@
+
+#carousel-label h5{
+    font-size: 44px;
+text-align: left;
+padding: 20px 25px;
+color: #007bbb;
+font-weight: 700;
+background-color: rgba(255,255,255,0.8);
+font-family: 'Roboto Slab',serif;
+text-shadow: none;
+margin-bottom: 200px;
+}
+
+#carousel-label{
+    width: 55%;
+}
+
+.contact-right-box{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #edeeef;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    padding: 50px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+footer ul li{
+    
+    margin-right: 50px;
+    padding: 10px;
+}
+
